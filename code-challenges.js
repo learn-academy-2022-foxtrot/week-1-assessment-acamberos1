@@ -11,6 +11,7 @@
 // follow exampled in way that fits current problem
 // set var or constant then use length if method to output the fruit with the larger word
 
+
 // Set one:
 // const fruit1 = "apple"
 // const fruit2 = "banana"
@@ -107,17 +108,31 @@ const temp = 350
 // --------------------4) Create the code that will return the last index of the given value from the array using the test variables provided below.
 
 // Describe your process:
+// check notes for the right tool and method
+// after i recognize it i implent it which is console logging the last number of the array which is lastindexof
+// i console log then attach the array name to the function lastindex
+// after seeing this work i do this for the next given values and switch out the previous number with the desired number 
 
 // const myNumbers = [13, 34, 42, 5, 5, 10, 27, 42, 10]
 // const givenValue1 = 42
 // Expected output: 7
 
-// const givenValue2 = 10
-// Expected output: 8
+// console.log(myNumbers.lastindexof(42))
+
+// // const givenValue2 = 10
+// // Expected output: 8
+
+// console.log(myNumbers.lastindexof(10))
 
 // --------------------5) Create the code that will sort all the numbers in an array from largest to smallest. Use the test variables provided below.
 
 // Describe your process:
+
+// look at personal notes, if there isnt any related to the problem check the syllabus
+// syllabus shows example almost like this
+//adjust the const name in the function so sort works with it
+//console log (const/var name.sort)
+//add(a,b) => a -b )to sort
 
 // const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76]
 // // Expected output: [82, 80, 79, 77, 76, 73, 72]

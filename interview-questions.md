@@ -34,15 +34,15 @@ Researched answer: index is a place holder for a value while a value is somethin
 
 4. Compare and contrast arrays and strings.
 
-Your answer: arrays are lists that hold values, strings are usually stored list and arent recorded their value position like arrays are and have less data types than arrays
+Your answer: arrays are lists that hold values, strings are usually stored list and arent recorded their value position like arrays are and have less data types than arrays. strings are a kind of data type that is usually used to hold sentences or single words which can still be useful and used across many different platforms.
 
-Researched answer: 
+Researched answer:  array and strings have a few things in common. arrays can contain strings as their data type and can also hold various data types along with strings. Strings can be made from split up arrays that have turned into strings from the split functions. String is still only one data type and cant hold as many different kinds of values as  an array.
 
 5. Give a brief description of proper pair programming techniques. What are the roles of each person?
 
-Your answer: navigator tells the driver what to type in the code and check for any errors the driver usually types the code for the duo.
+Your answer: navigator tells the driver what to type in the code and check for any errors whether it is syntax or a logic error where the right function was used at the wrong time or they misspelled or misplaced a bracket of some sort. the driver usually types the code for the duo.
 
-Researched answer: the navigator reviews and plans code while the driver writes it out in an effort to frugally use time to code without impacting code quality.
+Researched answer: the navigator reviews and plans code while the driver writes it out in an effort to frugally use time to code without impacting code quality. Many companies encourage this to help double check the code for syntax erros
 
 ## Looking Ahead: Terms for Next Week
 
