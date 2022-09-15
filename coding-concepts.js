@@ -46,8 +46,9 @@ const languages = ["JavaScript", "Ruby", "Python", "C++"]
 const weekendDays = ["saturday", "sunday"]
  //console.log(weekendDays.toUpperCase())
 
+
 // a) Your answer: I cant find it in my notes for some reason , my gut says its because it seems obvious. I think it will capitalize each first letter in the array.
-// b) Verify and explain: the cli said upper case isnt a function
+// b) Verify and explain: the cli said upper case isnt a function, after research it is because the uppercase only works on string and not arrays, I would need to use split function to make the stored values into arrays then use uppercase value afterwards.
 
 
 // --------------------5) What will this log?

@@ -11,16 +11,17 @@
 // follow exampled in way that fits current problem
 // set var or constant then use length if method to output the fruit with the larger word
 
+
 // Set one:
-const fruit1 = "apple"
-const fruit2 = "banana"
-if (fruit1.length>fruit2.length){
-    console.log(fruit1)
-} else if (fruit1.length<fruit2.length){
-    console.log(fruit2)
-} else {
-    console.log("what happened")
-}
+// const fruit1 = "apple"
+// const fruit2 = "banana"
+// if (fruit1.length>fruit2.length){
+//     console.log(fruit1)
+// } else if (fruit1.length<fruit2.length){
+//     console.log(fruit2)
+// } else {
+//     console.log("what happened")
+// }
 // Expected outcome: "banana"
 
 // Set two:
@@ -30,16 +31,16 @@ if (fruit1.length>fruit2.length){
 // test and run
 // if error shows then review 
 
-const fruit3 = "cherry"
-const fruit4 = "kiwi"
+// const fruit3 = "cherry"
+// const fruit4 = "kiwi"
 
-if (fruit3.length>fruit4.length){
-    console.log(fruit3)
-} else if (fruit3.length<fruit4.length){
-    console.log(fruit4)
-} else {
-    console.log("lets make a smoothie")
-}
+// if (fruit3.length>fruit4.length){
+//     console.log(fruit3)
+// } else if (fruit3.length<fruit4.length){
+//     console.log(fruit4)
+// } else {
+//     console.log("lets make a smoothie")
+//}
 // Expected outcome: "cherry"
 
 // --------------------1) Create the code that determines if a given number is below boiling point, at boiling point, or above boiling point. Boiling point is 212 degrees Fahrenheit. Use the test variables provided below.
@@ -62,13 +63,13 @@ const temp = 350
  //const temp = 212
 // Expected output: "212 is at boiling point"
 
-if(temp < 212) {
-    console.log("below boilingpoint")
-} else if (temp === 212) {
-    console.log("at boiling point")
-} else {
-    console.log(" above boiling")
-}
+// if(temp < 212) {
+//     console.log("below boilingpoint")
+// } else if (temp === 212) {
+//     console.log("at boiling point")
+// } else {
+//     console.log(" above boiling")
+// }
 
 
 // --------------------2) Create the code that will combine the two arrays and return the length using the test variables provided below.
@@ -80,12 +81,12 @@ if(temp < 212) {
 // tried both but couldnt get return value or else it wouldnt show the full array
 // it only works with console log
 
-const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4]
-const padres1998WorldSeriesRuns = [6, 3, 5, 3]
-// Expected output: 9
+// const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4]
+// const padres1998WorldSeriesRuns = [6, 3, 5, 3]
+// // Expected output: 9
 
- padres1984WorldSeriesRuns.join(padres1998WorldSeriesRuns)
- console.log(padres1984WorldSeriesRuns)
+//  padres1984WorldSeriesRuns.join(padres1998WorldSeriesRuns)
+//  console.log(padres1984WorldSeriesRuns)
 
 
 // --------------------3) Create the code that will reverse the letters of a string using the test variable provided below.
@@ -96,31 +97,49 @@ const padres1998WorldSeriesRuns = [6, 3, 5, 3]
 // value returns undefined 
 // attempt with two console logs like exampled showed in syllabus
 
-
- const currentCohort = "Foxtrot 2022"
- currentCohort.split
+//  const currentCohort = "Foxtrot 2022"
 // Expected output: "2202 tortxoF"
 
-console.log(currentCohort.reverse("Foxtrot 2022"))
+// console.log(currentCohort.split("").reverse().join(""))
+
+
 
 
 // --------------------4) Create the code that will return the last index of the given value from the array using the test variables provided below.
 
 // Describe your process:
+// check notes for the right tool and method
+// after i recognize it i implent it which is console logging the last number of the array which is lastindexof
+// i console log then attach the array name to the function lastindex
+// after seeing this work i do this for the next given values and switch out the previous number with the desired number 
 
 // const myNumbers = [13, 34, 42, 5, 5, 10, 27, 42, 10]
 // const givenValue1 = 42
 // Expected output: 7
 
-// const givenValue2 = 10
-// Expected output: 8
+// console.log(myNumbers.lastindexof(42))
+
+// // const givenValue2 = 10
+// // Expected output: 8
+
+// console.log(myNumbers.lastindexof(10))
 
 // --------------------5) Create the code that will sort all the numbers in an array from largest to smallest. Use the test variables provided below.
 
 // Describe your process:
 
-const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76]
-// Expected output: [82, 80, 79, 77, 76, 73, 72]
+// look at personal notes, if there isnt any related to the problem check the syllabus
+// syllabus shows example almost like this
+//adjust the const name in the function so sort works with it
+//console log (const/var name.sort)
+//add(a,b) => a -b )to sort
 
-const sanDiegoWinterTemperatures = [59, 68, 62, 59, 66, 67, 66]
-// Expected output: [68, 67, 66, 66, 62, 59, 59]
+// const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76]
+// // Expected output: [82, 80, 79, 77, 76, 73, 72]
+// console.log(sanDiegoSummerTemperatures.sort((a,b) => a - b))
+
+// const sanDiegoWinterTemperatures = [59, 68, 62, 59, 66, 67, 66]
+// // Expected output: [68, 67, 66, 66, 62, 59, 59]
+// console.log(sanDiegoWinterTemperatures.sort((a,b) => a - b))
+
+
